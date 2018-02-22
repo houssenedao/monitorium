@@ -1,0 +1,9 @@
+#!/usr/local/bin/php
+
+<?php
+
+require_once 'bootstrap/app.php';
+
+$app = $monitorium->container->get('console');
+
+$app->run();
